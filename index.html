@@ -16,8 +16,7 @@
         <a href="./public/contact.html"> Contact Me</a><br />
         <br />
         <a href="./public/about.html"> About Me</a>
-    </body>
-    <script>
+        <script>
         function add(num1, num2) {
             return num1 + num2;
         }
@@ -39,7 +38,7 @@
 
         var result;
 
-        stitch (operator) {
+        switch (operator) {
         case "+":
             result = calculator(num1, num2, add);
             break;
@@ -54,7 +53,7 @@
             break;
         default:
             result = "Invalid operator";
-            break;
         }
     </script>
+    </body>
 </html>
